@@ -11,9 +11,25 @@
 |
 */
 
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
 Route::get('/', function () {
+    return view('startPage');
+});
+
+Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::get('/addMembers', function () {
+    return view('addMembers');
+});
+
+Route::get('/addCourses', 'NewController@addcourse');
+
+Route::POST('/addCourses', 'NewController@courseStore');
 
 Route::get('/Information', function () {
     return "Md. Mirajul Islam";
@@ -31,10 +47,6 @@ Route::get('/routine', function () {
     return view('routine');
 });
 
-//Route::get('/exam', function () {
-//    return view('exam');
-//});
-
 Route::get('/exam', 'CourseController@manage');
 
 
@@ -47,7 +59,7 @@ Route::get('/register', function () {
 });
 
 Route::get('/login', function () {
-    return view('login');
+    return view('home');
 });
 
 Route::get('/exam/marks/{cid}/{sid}', 'NewController@courseInfo');
@@ -55,6 +67,32 @@ Route::get('/exam/marks/{cid}/{sid}', 'NewController@courseInfo');
 Route::get('/exam/marks/{cid}/{sid}/{tid}', 'NewController@markInfo');
 
 Route::POST('/exam/marks/{cid}/{sid}/{tid}/details','NewController@store');
+
+Route::POST('/addMembers','NewController@playstore');
+
+Route::get('logout', function () {
+    return "logged out";
+});
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
+
+//Route::get('/exam/301', 'NewController@studentInfo');
+//Route::get('/exam/313', 'NewController@studentInfo1');
+//Route::get('/exam/315', 'NewController@studentInfo2');
+//Route::get('/exam/317', 'NewController@studentInfo3');
+//Route::get('/exam/321', 'NewController@studentInfo4');
+
+//Route::POST('/exam/abc','NewController@store');
+
+Route::POST('/exam','CourseController@store');
+
+Route::POST('/exam/instructor/{cid}/{sid}/zero','InstructorController@store');
+
+Route::POST('/exam/instructor/{cid}/{sid}/more','InstructorMoreController@store');
+
+Route::resource('/new','NewController');
 
 Route::get('/insert', function () {
 //    DB::insert('insert into students(student_name,student_id) values (?, ?)', ['Anik Sarker', 1405001]);
@@ -144,32 +182,3 @@ Route::get('/insert', function () {
 
 
 
-Route::get('logout', function () {
-    return "logged out";
-});
-
-Route::auth();
-
-Route::get('/home', 'HomeController@index');
-
-//Route::get('/exam/301', 'NewController@studentInfo');
-//Route::get('/exam/313', 'NewController@studentInfo1');
-//Route::get('/exam/315', 'NewController@studentInfo2');
-//Route::get('/exam/317', 'NewController@studentInfo3');
-//Route::get('/exam/321', 'NewController@studentInfo4');
-
-//Route::POST('/exam/abc','NewController@store');
-
-Route::POST('/exam','CourseController@store');
-
-Route::POST('/exam/instructor/{cid}/{sid}/zero','InstructorController@store');
-
-//Route::POST('/exam/instructor/{cid}/{sid}/{nid}','InstructorMoreController@store');
-Route::POST('/exam/instructor/{cid}/{sid}/more','InstructorMoreController@store');
-
-
-Route::resource('/new','NewController');
-
-///*//Route::auth();
-////
-////Route::get('/home', 'HomeController@index');*/

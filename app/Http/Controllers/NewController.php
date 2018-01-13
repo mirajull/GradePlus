@@ -6,6 +6,7 @@ use App\Course;
 use App\CourseOffer;
 use App\Mark;
 use App\Marks;
+use App\User;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -102,6 +103,29 @@ class NewController extends Controller
         return view('details',compact('tid', 'student' , 'crow') );
 
     }
+
+
+    public function addcourse()
+    {
+        $course = Course::all();
+        return view('addCourses',compact('course'));
+    }
+
+    public function courseStore(Request $request)
+    {
+        $crs = new Course;
+        $data = $request->all();
+        $crs['course_id'] = $data ['course_id'];
+        $crs['course_name'] = $data ['course_name'];
+        $crs['credit'] = $data ['credit'];
+        $crs['course_type'] = $data ['course_type'];
+        $crs->save();
+
+        $course = Course::all();
+
+        return view('addCourses',compact('course'));
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -162,6 +186,22 @@ class NewController extends Controller
 
         return view('abc');
     }
+
+
+    public function playstore(Request $request)
+    {
+        $user = new User;
+        $array = $request->all();
+        $user['name'] = $array['name'];
+        $user['email'] = $array['email'];
+        $user['user_type'] = $array['user_type'];
+        $user['password'] = bcrypt($array['password']);
+        $user->save();
+
+        return view('welcome');
+    }
+
+
 
     /**
      * Display the specified resource.

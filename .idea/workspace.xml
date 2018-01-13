@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4da1409d-787c-455b-93b6-708bc8549aa3" name="Default" comment="" />
+    <list default="true" id="4da1409d-787c-455b-93b6-708bc8549aa3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/InstructorMoreController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/InstructorMoreController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NewController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,180 +26,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="54" column="55" lean-forward="false" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+            <state relative-caret-position="204">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
-                <marker date="1515812605518" expanded="true" signature="1336:1395" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="1443:1502" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="1556:1615" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="1670:1729" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="1778:1837" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="1891:1950" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="2001:2060" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="2109:2168" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="2215:2274" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="2330:2389" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="2438:2497" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="2550:2609" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="2663:2722" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="2784:2843" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="2896:2955" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="3009:3068" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="3127:3186" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="3238:3297" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="3350:3409" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="3464:3523" ph="insert into Batch14... " />
-                <marker date="1515812605518" expanded="true" signature="3584:3643" ph="insert into teachers... " />
-                <marker date="1515812605518" expanded="true" signature="3684:3743" ph="insert into teachers... " />
-                <marker date="1515812605518" expanded="true" signature="3795:3854" ph="insert into teachers... " />
-                <marker date="1515812605518" expanded="true" signature="3894:3953" ph="insert into teachers... " />
-                <marker date="1515812605518" expanded="true" signature="4000:4059" ph="insert into teachers... " />
-                <marker date="1515812605518" expanded="true" signature="4112:4165" ph="insert into examtype... " />
-                <marker date="1515812605518" expanded="true" signature="4205:4258" ph="insert into examtype... " />
-                <marker date="1515812605518" expanded="true" signature="4290:4343" ph="insert into examtype... " />
-                <marker date="1515812605518" expanded="true" signature="4379:4432" ph="insert into examtype... " />
-                <marker date="1515812605518" expanded="true" signature="4469:4522" ph="insert into examtype... " />
-                <marker date="1515812605518" expanded="true" signature="4567:4620" ph="insert into examtype... " />
-                <marker date="1515812605518" expanded="true" signature="4654:4707" ph="insert into examtype... " />
-                <marker date="1515812605518" expanded="true" signature="4749:4802" ph="insert into examtype... " />
-                <marker date="1515812605518" expanded="true" signature="4836:4889" ph="insert into examtype... " />
-                <marker date="1515812605518" expanded="true" signature="4926:4979" ph="insert into examtype... " />
-                <marker date="1515812605518" expanded="true" signature="5020:5086" ph="insert into courses... " />
-                <marker date="1515812605518" expanded="true" signature="5139:5205" ph="insert into courses... " />
-                <marker date="1515812605518" expanded="true" signature="5262:5328" ph="insert into courses... " />
-                <marker date="1515812605518" expanded="true" signature="5383:5449" ph="insert into courses... " />
-                <marker date="1515812605518" expanded="true" signature="5513:5579" ph="insert into courses... " />
-                <marker date="1515812605518" expanded="true" signature="5635:5691" ph="insert into sessions... " />
-                <marker date="1515812605518" expanded="true" signature="5741:5797" ph="insert into sessions... " />
-                <marker date="1515812605518" expanded="true" signature="5846:5902" ph="insert into sessions... " />
-                <marker date="1515812605518" expanded="true" signature="5952:6008" ph="insert into sessions... " />
-                <marker date="1515812605518" expanded="true" signature="6057:6113" ph="insert into sessions... " />
-                <marker date="1515812605518" expanded="true" signature="6163:6219" ph="insert into sessions... " />
-                <marker date="1515812605518" expanded="true" signature="6269:6287" ph="insert into courseexamtype... " />
-                <marker date="1515812605518" expanded="true" signature="6269:6329" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="6365:6425" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="6462:6522" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="6561:6621" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="6657:6717" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="6754:6814" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="6853:6913" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="6949:7009" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="7046:7106" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="7145:7205" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="7241:7301" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="7337:7397" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="7434:7494" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="7533:7593" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="7629:7689" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="7725:7785" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="7821:7881" ph="insert into coursesExamType... " />
-                <marker date="1515812605518" expanded="true" signature="7840:7881" ph="insert into courseExamType... " />
-                <marker date="1515812605518" expanded="true" signature="7919:7976" ph="insert into enrollment... " />
-                <marker date="1515812605518" expanded="true" signature="8026:8083" ph="insert into enrollment... " />
-                <marker date="1515812605518" expanded="true" signature="8133:8190" ph="insert into enrollment... " />
-                <marker date="1515812605518" expanded="true" signature="8240:8297" ph="insert into enrollment... " />
-                <marker date="1515812605518" expanded="true" signature="8347:8404" ph="insert into enrollment... " />
-                <marker date="1515812605518" expanded="true" signature="8454:8511" ph="insert into enrollment... " />
-                <marker date="1515812605518" expanded="true" signature="8561:8618" ph="insert into enrollment... " />
-                <marker date="1515812605518" expanded="true" signature="8668:8725" ph="insert into enrollment... " />
-                <marker date="1515812605518" expanded="true" signature="8775:8832" ph="insert into enrollment... " />
-                <marker date="1515812605518" expanded="true" signature="8882:8939" ph="insert into enrollment... " />
+                <element signature="e#7#392#0#PHP" expanded="true" />
+                <marker date="1515877453469" expanded="true" signature="2367:2426" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="2474:2533" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="2587:2646" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="2701:2760" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="2809:2868" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="2922:2981" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="3032:3091" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="3140:3199" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="3246:3305" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="3361:3420" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="3469:3528" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="3581:3640" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="3694:3753" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="3815:3874" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="3927:3986" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="4040:4099" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="4158:4217" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="4269:4328" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="4381:4440" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="4495:4554" ph="insert into Batch14... " />
+                <marker date="1515877453469" expanded="true" signature="4615:4674" ph="insert into teachers... " />
+                <marker date="1515877453469" expanded="true" signature="4715:4774" ph="insert into teachers... " />
+                <marker date="1515877453469" expanded="true" signature="4826:4885" ph="insert into teachers... " />
+                <marker date="1515877453469" expanded="true" signature="4925:4984" ph="insert into teachers... " />
+                <marker date="1515877453469" expanded="true" signature="5031:5090" ph="insert into teachers... " />
+                <marker date="1515877453469" expanded="true" signature="5143:5196" ph="insert into examtype... " />
+                <marker date="1515877453469" expanded="true" signature="5236:5289" ph="insert into examtype... " />
+                <marker date="1515877453469" expanded="true" signature="5321:5374" ph="insert into examtype... " />
+                <marker date="1515877453469" expanded="true" signature="5410:5463" ph="insert into examtype... " />
+                <marker date="1515877453469" expanded="true" signature="5500:5553" ph="insert into examtype... " />
+                <marker date="1515877453469" expanded="true" signature="5598:5651" ph="insert into examtype... " />
+                <marker date="1515877453469" expanded="true" signature="5685:5738" ph="insert into examtype... " />
+                <marker date="1515877453469" expanded="true" signature="5780:5833" ph="insert into examtype... " />
+                <marker date="1515877453469" expanded="true" signature="5867:5920" ph="insert into examtype... " />
+                <marker date="1515877453469" expanded="true" signature="5957:6010" ph="insert into examtype... " />
+                <marker date="1515877453469" expanded="true" signature="6051:6117" ph="insert into courses... " />
+                <marker date="1515877453469" expanded="true" signature="6170:6236" ph="insert into courses... " />
+                <marker date="1515877453469" expanded="true" signature="6293:6359" ph="insert into courses... " />
+                <marker date="1515877453469" expanded="true" signature="6414:6480" ph="insert into courses... " />
+                <marker date="1515877453469" expanded="true" signature="6544:6610" ph="insert into courses... " />
+                <marker date="1515877453469" expanded="true" signature="6666:6722" ph="insert into sessions... " />
+                <marker date="1515877453469" expanded="true" signature="6772:6828" ph="insert into sessions... " />
+                <marker date="1515877453469" expanded="true" signature="6877:6933" ph="insert into sessions... " />
+                <marker date="1515877453469" expanded="true" signature="6983:7039" ph="insert into sessions... " />
+                <marker date="1515877453469" expanded="true" signature="7088:7144" ph="insert into sessions... " />
+                <marker date="1515877453469" expanded="true" signature="7194:7250" ph="insert into sessions... " />
+                <marker date="1515877453469" expanded="true" signature="7300:7318" ph="insert into courseexamtype... " />
+                <marker date="1515877453469" expanded="true" signature="7300:7360" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="7396:7456" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="7493:7553" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="7592:7652" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="7688:7748" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="7785:7845" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="7884:7944" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="7980:8040" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="8077:8137" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="8176:8236" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="8272:8332" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="8368:8428" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="8465:8525" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="8564:8624" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="8660:8720" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="8756:8816" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="8852:8912" ph="insert into coursesExamType... " />
+                <marker date="1515877453469" expanded="true" signature="8871:8912" ph="insert into courseExamType... " />
+                <marker date="1515877453469" expanded="true" signature="8950:9007" ph="insert into enrollment... " />
+                <marker date="1515877453469" expanded="true" signature="9057:9114" ph="insert into enrollment... " />
+                <marker date="1515877453469" expanded="true" signature="9164:9221" ph="insert into enrollment... " />
+                <marker date="1515877453469" expanded="true" signature="9271:9328" ph="insert into enrollment... " />
+                <marker date="1515877453469" expanded="true" signature="9378:9435" ph="insert into enrollment... " />
+                <marker date="1515877453469" expanded="true" signature="9485:9542" ph="insert into enrollment... " />
+                <marker date="1515877453469" expanded="true" signature="9592:9649" ph="insert into enrollment... " />
+                <marker date="1515877453469" expanded="true" signature="9699:9756" ph="insert into enrollment... " />
+                <marker date="1515877453469" expanded="true" signature="9806:9863" ph="insert into enrollment... " />
+                <marker date="1515877453469" expanded="true" signature="9913:9970" ph="insert into enrollment... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="91" column="81" lean-forward="false" selection-start-line="91" selection-start-column="81" selection-end-line="91" selection-end-column="81" />
-              <folding>
-                <element signature="e#40#55#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updateDetail.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/updateDetail.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mark.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Mark.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="abc.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/abc.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="details.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/details.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VerifyCsrfToken.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018_01_13_024236_add_column_examidno.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_13_024236_add_column_examidno.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="allMarks.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/allMarks.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="103" lean-forward="false" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -199,29 +120,22 @@
       <find>where</find>
       <find>courseExamType</find>
       <find>$exid</find>
+      <find>$course</find>
+      <find>course</find>
     </findStrings>
     <replaceStrings>
       <replace>courseExamType</replace>
       <replace>coursesExamType</replace>
       <replace>$tid</replace>
+      <replace>crs</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2018_01_09_165807_add_marks_column.php" />
-        <option value="$PROJECT_DIR$/resources/views/315.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/317.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/321.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/313.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/abc.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/301.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_01_10_171524_create_table_marks.php" />
-        <option value="$PROJECT_DIR$/app/Marks.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_01_11_035916_create_course_table.php" />
-        <option value="$PROJECT_DIR$/app/Student.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_01_11_211536_create_student_14_Table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_01_11_202011_create_courses_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_01_11_202339_create_sessions_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_01_11_201456_create_teacher_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_01_11_201635_create_exam_type_table.php" />
@@ -250,15 +164,28 @@
         <option value="$PROJECT_DIR$/resources/views/exam.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/offer2.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/instructor.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/InstructorMoreController.php" />
         <option value="$PROJECT_DIR$/resources/views/marks.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_01_13_024236_add_column_examidno.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/details.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
         <option value="$PROJECT_DIR$/resources/views/allMarks.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/NewController.php" />
         <option value="$PROJECT_DIR$/resources/views/updateDetail.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_01_13_154017_add_column_user_type.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/start.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
+        <option value="$PROJECT_DIR$/resources/views/startPage.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/Admintype.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+        <option value="$PROJECT_DIR$/resources/views/addMembers.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/InstructorMoreController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/resources/views/addCourses.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NewController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
       </list>
     </option>
@@ -335,12 +262,13 @@
       <path value="$PROJECT_DIR$/vendor/psr/log" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -384,6 +312,24 @@
             <path>
               <item name="final" type="b2602c69:ProjectViewProjectNode" />
               <item name="final" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Middleware" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -391,13 +337,6 @@
               <item name="final" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -412,7 +351,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="settings.editor.splitter.proportion" value="0.23212537" />
-    <property name="SearchEverywhereHistoryKey" value="ver&#9;FILE&#9;file://G:/xampp/htdocs/final/app/Http/Middleware/VerifyCsrfToken.php&#10;veri&#9;FILE&#9;file://G:/xampp/htdocs/final/app/Http/Middleware/VerifyCsrfToken.php&#10;re&#9;FILE&#9;file://G:/xampp/htdocs/final/resources/views/auth/register.blade.php&#10;rou&#9;FILE&#9;file://G:/xampp/htdocs/final/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="ver&#9;FILE&#9;file://G:/xampp/htdocs/final/app/Http/Middleware/VerifyCsrfToken.php&#10;authcontroller&#9;FILE&#9;file://G:/xampp/htdocs/final/app/Http/Controllers/Auth/AuthController.php&#10;veri&#9;FILE&#9;file://G:/xampp/htdocs/final/app/Http/Middleware/VerifyCsrfToken.php&#10;re&#9;FILE&#9;file://G:/xampp/htdocs/final/resources/views/auth/register.blade.php&#10;rou&#9;FILE&#9;file://G:/xampp/htdocs/final/app/Http/routes.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -472,12 +411,12 @@
       <workItem from="1515729844098" duration="37133000" />
       <workItem from="1515816228243" duration="950000" />
       <workItem from="1515806851699" duration="10826000" />
-      <workItem from="1515824826267" duration="604000" />
+      <workItem from="1515824826267" duration="23243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196899000" />
+    <option name="totallyTimeSpent" value="219538000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,7 +428,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -497,7 +436,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22039473" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22039473" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" x="22" y="281" width="1322" height="165" />
@@ -523,160 +462,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/.gitkeep">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/.gitkeep">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_11_220027_create_demo_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_11_211536_create_student_14_Table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_11_202011_create_courses_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_11_213929_create_course_offer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_11_164554_create_students_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_11_155958_create_marks_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_11_201456_create_teacher_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_11_203919_create_student_offer_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_11_201635_create_exam_type_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_11_202339_create_sessions_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Enrollment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ExamType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Teacher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_11_095616_create_coursee_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_12_044344_create_foreign_key_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -695,14 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Course.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,16 +558,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InstructorMoreController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -802,26 +570,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InstructorController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="69" column="28" lean-forward="false" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/instructor.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -856,90 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="54" column="55" lean-forward="false" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
-          <folding>
-            <marker date="1515812605518" expanded="true" signature="1336:1395" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="1443:1502" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="1556:1615" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="1670:1729" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="1778:1837" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="1891:1950" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="2001:2060" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="2109:2168" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="2215:2274" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="2330:2389" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="2438:2497" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="2550:2609" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="2663:2722" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="2784:2843" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="2896:2955" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="3009:3068" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="3127:3186" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="3238:3297" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="3350:3409" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="3464:3523" ph="insert into Batch14... " />
-            <marker date="1515812605518" expanded="true" signature="3584:3643" ph="insert into teachers... " />
-            <marker date="1515812605518" expanded="true" signature="3684:3743" ph="insert into teachers... " />
-            <marker date="1515812605518" expanded="true" signature="3795:3854" ph="insert into teachers... " />
-            <marker date="1515812605518" expanded="true" signature="3894:3953" ph="insert into teachers... " />
-            <marker date="1515812605518" expanded="true" signature="4000:4059" ph="insert into teachers... " />
-            <marker date="1515812605518" expanded="true" signature="4112:4165" ph="insert into examtype... " />
-            <marker date="1515812605518" expanded="true" signature="4205:4258" ph="insert into examtype... " />
-            <marker date="1515812605518" expanded="true" signature="4290:4343" ph="insert into examtype... " />
-            <marker date="1515812605518" expanded="true" signature="4379:4432" ph="insert into examtype... " />
-            <marker date="1515812605518" expanded="true" signature="4469:4522" ph="insert into examtype... " />
-            <marker date="1515812605518" expanded="true" signature="4567:4620" ph="insert into examtype... " />
-            <marker date="1515812605518" expanded="true" signature="4654:4707" ph="insert into examtype... " />
-            <marker date="1515812605518" expanded="true" signature="4749:4802" ph="insert into examtype... " />
-            <marker date="1515812605518" expanded="true" signature="4836:4889" ph="insert into examtype... " />
-            <marker date="1515812605518" expanded="true" signature="4926:4979" ph="insert into examtype... " />
-            <marker date="1515812605518" expanded="true" signature="5020:5086" ph="insert into courses... " />
-            <marker date="1515812605518" expanded="true" signature="5139:5205" ph="insert into courses... " />
-            <marker date="1515812605518" expanded="true" signature="5262:5328" ph="insert into courses... " />
-            <marker date="1515812605518" expanded="true" signature="5383:5449" ph="insert into courses... " />
-            <marker date="1515812605518" expanded="true" signature="5513:5579" ph="insert into courses... " />
-            <marker date="1515812605518" expanded="true" signature="5635:5691" ph="insert into sessions... " />
-            <marker date="1515812605518" expanded="true" signature="5741:5797" ph="insert into sessions... " />
-            <marker date="1515812605518" expanded="true" signature="5846:5902" ph="insert into sessions... " />
-            <marker date="1515812605518" expanded="true" signature="5952:6008" ph="insert into sessions... " />
-            <marker date="1515812605518" expanded="true" signature="6057:6113" ph="insert into sessions... " />
-            <marker date="1515812605518" expanded="true" signature="6163:6219" ph="insert into sessions... " />
-            <marker date="1515812605518" expanded="true" signature="6269:6287" ph="insert into courseexamtype... " />
-            <marker date="1515812605518" expanded="true" signature="6269:6329" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="6365:6425" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="6462:6522" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="6561:6621" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="6657:6717" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="6754:6814" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="6853:6913" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="6949:7009" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="7046:7106" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="7145:7205" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="7241:7301" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="7337:7397" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="7434:7494" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="7533:7593" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="7629:7689" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="7725:7785" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="7821:7881" ph="insert into coursesExamType... " />
-            <marker date="1515812605518" expanded="true" signature="7840:7881" ph="insert into courseExamType... " />
-            <marker date="1515812605518" expanded="true" signature="7919:7976" ph="insert into enrollment... " />
-            <marker date="1515812605518" expanded="true" signature="8026:8083" ph="insert into enrollment... " />
-            <marker date="1515812605518" expanded="true" signature="8133:8190" ph="insert into enrollment... " />
-            <marker date="1515812605518" expanded="true" signature="8240:8297" ph="insert into enrollment... " />
-            <marker date="1515812605518" expanded="true" signature="8347:8404" ph="insert into enrollment... " />
-            <marker date="1515812605518" expanded="true" signature="8454:8511" ph="insert into enrollment... " />
-            <marker date="1515812605518" expanded="true" signature="8561:8618" ph="insert into enrollment... " />
-            <marker date="1515812605518" expanded="true" signature="8668:8725" ph="insert into enrollment... " />
-            <marker date="1515812605518" expanded="true" signature="8775:8832" ph="insert into enrollment... " />
-            <marker date="1515812605518" expanded="true" signature="8882:8939" ph="insert into enrollment... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/details.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -948,29 +617,326 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/updateDetail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_13_154017_add_column_user_type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/startPage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="98" lean-forward="true" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/emails/password.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/start.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Admintype.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#39#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#45#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/instructor.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/addMembers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InstructorMoreController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="56" column="25" lean-forward="true" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/addCourses.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="91" column="81" lean-forward="false" selection-start-line="91" selection-start-column="81" selection-end-line="91" selection-end-column="81" />
+        <state relative-caret-position="231">
+          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
             <element signature="e#40#55#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/updateDetail.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="69">
+          <caret line="88" column="19" lean-forward="false" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
+            <marker date="1515877453469" expanded="true" signature="2367:2426" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="2474:2533" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="2587:2646" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="2701:2760" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="2809:2868" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="2922:2981" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="3032:3091" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="3140:3199" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="3246:3305" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="3361:3420" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="3469:3528" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="3581:3640" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="3694:3753" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="3815:3874" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="3927:3986" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="4040:4099" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="4158:4217" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="4269:4328" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="4381:4440" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="4495:4554" ph="insert into Batch14... " />
+            <marker date="1515877453469" expanded="true" signature="4615:4674" ph="insert into teachers... " />
+            <marker date="1515877453469" expanded="true" signature="4715:4774" ph="insert into teachers... " />
+            <marker date="1515877453469" expanded="true" signature="4826:4885" ph="insert into teachers... " />
+            <marker date="1515877453469" expanded="true" signature="4925:4984" ph="insert into teachers... " />
+            <marker date="1515877453469" expanded="true" signature="5031:5090" ph="insert into teachers... " />
+            <marker date="1515877453469" expanded="true" signature="5143:5196" ph="insert into examtype... " />
+            <marker date="1515877453469" expanded="true" signature="5236:5289" ph="insert into examtype... " />
+            <marker date="1515877453469" expanded="true" signature="5321:5374" ph="insert into examtype... " />
+            <marker date="1515877453469" expanded="true" signature="5410:5463" ph="insert into examtype... " />
+            <marker date="1515877453469" expanded="true" signature="5500:5553" ph="insert into examtype... " />
+            <marker date="1515877453469" expanded="true" signature="5598:5651" ph="insert into examtype... " />
+            <marker date="1515877453469" expanded="true" signature="5685:5738" ph="insert into examtype... " />
+            <marker date="1515877453469" expanded="true" signature="5780:5833" ph="insert into examtype... " />
+            <marker date="1515877453469" expanded="true" signature="5867:5920" ph="insert into examtype... " />
+            <marker date="1515877453469" expanded="true" signature="5957:6010" ph="insert into examtype... " />
+            <marker date="1515877453469" expanded="true" signature="6051:6117" ph="insert into courses... " />
+            <marker date="1515877453469" expanded="true" signature="6170:6236" ph="insert into courses... " />
+            <marker date="1515877453469" expanded="true" signature="6293:6359" ph="insert into courses... " />
+            <marker date="1515877453469" expanded="true" signature="6414:6480" ph="insert into courses... " />
+            <marker date="1515877453469" expanded="true" signature="6544:6610" ph="insert into courses... " />
+            <marker date="1515877453469" expanded="true" signature="6666:6722" ph="insert into sessions... " />
+            <marker date="1515877453469" expanded="true" signature="6772:6828" ph="insert into sessions... " />
+            <marker date="1515877453469" expanded="true" signature="6877:6933" ph="insert into sessions... " />
+            <marker date="1515877453469" expanded="true" signature="6983:7039" ph="insert into sessions... " />
+            <marker date="1515877453469" expanded="true" signature="7088:7144" ph="insert into sessions... " />
+            <marker date="1515877453469" expanded="true" signature="7194:7250" ph="insert into sessions... " />
+            <marker date="1515877453469" expanded="true" signature="7300:7318" ph="insert into courseexamtype... " />
+            <marker date="1515877453469" expanded="true" signature="7300:7360" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="7396:7456" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="7493:7553" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="7592:7652" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="7688:7748" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="7785:7845" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="7884:7944" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="7980:8040" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="8077:8137" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="8176:8236" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="8272:8332" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="8368:8428" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="8465:8525" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="8564:8624" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="8660:8720" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="8756:8816" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="8852:8912" ph="insert into coursesExamType... " />
+            <marker date="1515877453469" expanded="true" signature="8871:8912" ph="insert into courseExamType... " />
+            <marker date="1515877453469" expanded="true" signature="8950:9007" ph="insert into enrollment... " />
+            <marker date="1515877453469" expanded="true" signature="9057:9114" ph="insert into enrollment... " />
+            <marker date="1515877453469" expanded="true" signature="9164:9221" ph="insert into enrollment... " />
+            <marker date="1515877453469" expanded="true" signature="9271:9328" ph="insert into enrollment... " />
+            <marker date="1515877453469" expanded="true" signature="9378:9435" ph="insert into enrollment... " />
+            <marker date="1515877453469" expanded="true" signature="9485:9542" ph="insert into enrollment... " />
+            <marker date="1515877453469" expanded="true" signature="9592:9649" ph="insert into enrollment... " />
+            <marker date="1515877453469" expanded="true" signature="9699:9756" ph="insert into enrollment... " />
+            <marker date="1515877453469" expanded="true" signature="9806:9863" ph="insert into enrollment... " />
+            <marker date="1515877453469" expanded="true" signature="9913:9970" ph="insert into enrollment... " />
+          </folding>
         </state>
       </provider>
     </entry>

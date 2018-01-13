@@ -57,7 +57,7 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="{{url('/')}}">Home</a></li>
+                    <li class="active"><a href="{{url('/welcome')}}">Home</a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Dashboard <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -66,6 +66,15 @@
                             <li><a href="{{url('/sheet')}}">Gradesheets</a></li>
                         </ul>
                     </li>
+                    @if(Auth::user()->user_type=="admin")
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Administration <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{{url('/addMembers')}}">Add Members</a></li>
+                                <li><a href="{{url('/addCourses')}}">Add Courses</a></li>
+                            </ul>
+                        </li>
+                    @endif
                     <li><a href="{{url('/about')}}">About</a></li>
                     <li><a href="{{url('/contact')}}">Contact</a></li>
                 </ul>

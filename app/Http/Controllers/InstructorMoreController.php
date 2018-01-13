@@ -42,32 +42,17 @@ class InstructorMoreController extends Controller
     public function store(Request $request, $cid, $sid )
     {
         $course = CourseOffer::all();
-
-        //$tname = Teacher::all();
         $data = $request->all();
         $concat = $cid.$sid;
-
-        //$is = Teacher::where('teacher_id','=',$data['teacher_id']);
-
         $ase = false ;
-        //if($is != null )
-
-
-            $tidcheck = DB::table('teacherAssignments')->where('offer_id', '=', $concat)->get();
-            //echo $tidcheck;
-            foreach ($tidcheck as $tck)
-            {
-              //  echo $tck ;
-                if ($data['teacher_id'] == $tck->teacher_id) {
-                    $ase = true;
-                }
-
+        $tidcheck = DB::table('teacherAssignments')->where('offer_id', '=', $concat)->get();
+        foreach ($tidcheck as $tck)
+        {
+            if ($data['teacher_id'] == $tck->teacher_id) {
+                $ase = true;
             }
 
-
-//        $teachers = TeacherAssignment::where('offer_id','=',$concat)->get();
-//        $tname = Teacher::where('teacher_id','=',$teachers['teacher_id']);
-
+        }
 
         if($ase == false)
         {
@@ -80,8 +65,6 @@ class InstructorMoreController extends Controller
             ->join('teachers', 'teachers.teacher_id', '=', 'teacherAssignments.teacher_id')
             ->where('teacherAssignments.offer_id','=',$concat)
             ->get();
-
-//        $nid=$nid+1;
 
         return view('instructor',compact('instructors','course','cid','sid'));
 
