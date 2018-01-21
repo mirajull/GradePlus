@@ -19,60 +19,79 @@ Route::get('/', function () {
     return view('startPage');
 });
 
-Route::get('/welcome', function () {
+Route::get('/welcome',['middleware' => ['isAdmin'], function () {
     return view('welcome');
-});
+}]);
 
-Route::get('/addMembers', function () {
+Route::get('/addMembers',['middleware' => ['isAdmin'], function () {
     return view('addMembers');
-});
+}]);
 
-Route::get('/addCourses', 'NewController@addcourse');
+Route::get('/addCourses','NewController@addcourse');
 
 Route::POST('/addCourses', 'NewController@courseStore');
 
-Route::get('/Information', function () {
-    return "Md. Mirajul Islam";
-});
-
-Route::get('/about', function () {
+Route::get('/about', ['middleware' => ['isAdmin'], function () {
     return view('about');
-});
+}]);
 
-Route::get('/contact', function () {
+Route::get('/contact',['middleware' => ['isAdmin'], function () {
     return view('contact');
-});
+}]);
 
-Route::get('/routine', function () {
+Route::get('/routine',['middleware' => ['isAdmin'], function () {
     return view('routine');
-});
+}]);
 
 Route::get('/exam', 'CourseController@manage');
 
 
-Route::get('/sheet', function () {
+Route::get('/sheet', ['middleware' => ['isAdmin'], function () {
     return view('sheet');
-});
+}]);
 
-Route::get('/register', function () {
+Route::get('/result', ['middleware' => ['isAdmin'], function () {
+    return view('result');
+}]);
+
+Route::get('/register', ['middleware' => ['isAdmin'], function () {
     return view('register');
-});
+}]);
 
-Route::get('/login', function () {
+Route::get('/login', ['middleware' => ['isAdmin'], function () {
     return view('home');
-});
+}]);
 
 Route::get('/exam/marks/{cid}/{sid}', 'NewController@courseInfo');
+
+Route::get('/exam/marks/{cid}/{sid}/grade', 'NewController@gradeCalculate');
+
+Route::get('/exam/marks/{cid}/{sid}/instructor', 'NewController@addInstructor');
+
+Route::get('/exam/marks/{cid}/{sid}/addStudent', 'NewController@addStudent');
+
+Route::get('/exam/marks/{cid}/{sid}/addLink', 'NewController@addLink');
+
+Route::POST('/exam/marks/{cid}/{sid}/addStudent/store', 'NewController@addStudentStore');
+
+Route::POST('/exam/marks/{cid}/{sid}/addLink/store', 'NewController@addLinkStore');
+
+Route::POST('/exam/marks/{cid}/{sid}/gradeshow', 'NewController@gradeShow');
 
 Route::get('/exam/marks/{cid}/{sid}/{tid}', 'NewController@markInfo');
 
 Route::POST('/exam/marks/{cid}/{sid}/{tid}/details','NewController@store');
 
+Route::POST('/sheet/gradeshow','NewController@gradeshowstudent');
+
+Route::get('/sheet/gradeshow2/{cid}/{sid}','NewController@gradeshow2student');
+
+Route::POST('/sheet/gpashow','NewController@gpashowstudent');
+
 Route::POST('/addMembers','NewController@playstore');
 
-Route::get('logout', function () {
-    return "logged out";
-});
+
+
 
 Route::auth();
 

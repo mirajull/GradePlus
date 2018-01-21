@@ -1,9 +1,28 @@
-@extends('layouts.app')
+@extends('layouts.mixed')
 
 @section('content')
+
     <div class="container">
-        <h3>Contact</h3>
-        <img src="http://www.npthproject.com/wp-content/uploads/2016/01/contact_us_banner1.jpg" style="width:100%;height: 425px">
+        <div class="jumbotron">
+            <h1>Contact GradePlus</h1>
+            <br/>
+            <br/>
+            <h4>GradePlus is the most suitable grading website ! </h4>
+            <br/>
+
+            <h4>You can contact here:</h4>
+            <br/>
+            <h4>Md. Nahiyan Uddin</h4>
+            <h4>hr_nahiyan@yahoo.com</h4>
+            <h4>01684756969</h4>
+            <br/>
+            <h4>Md. Mirajul Islam</h4>
+            <h4>mirajul1995@gmail.com</h4>
+            <h4>01684885415</h4>
+        </div>
 
     </div>
+
+
+
 @endsection

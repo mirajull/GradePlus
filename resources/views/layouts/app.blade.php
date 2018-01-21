@@ -53,7 +53,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{url('/')}}">GradePlus</a>
+                <a class="navbar-brand" href="{{url('/welcome')}}">GradePlus</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -62,8 +62,9 @@
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Dashboard <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="{{url('/routine')}}">Class routine</a></li>
-                            <li><a href="{{url('/exam')}}">Examinations</a></li>
+                            <li><a href="{{url('/exam')}}">Courses</a></li>
                             <li><a href="{{url('/sheet')}}">Gradesheets</a></li>
+                            <li><a href="{{url('/result')}}">Result</a></li>
                         </ul>
                     </li>
                     @if(Auth::user()->user_type=="admin")

@@ -19,40 +19,49 @@
                 </ul>
             </div>
         </div> <br>
-        <div class="well well-lg"><h4>{{$cid."\x20"."Session:".$sid}} Instructors</h4></div>
+        <div class="well well-lg"><h4>{{$cid."\x20"."Session:".$sid."\x20"}}Assesment Links</h4></div>
 
         {{--<div class="well well-lg"><h4>{{$data['course_id']}}{{"\x20"}}{{"\x20Session:"}}{{$data['session_id']}}</h4></div>--}}
 
-        <form action="/final/public/exam/instructor/{{$cid}}/{{$sid}}/more" method="POST">
+        <form action="{{url('/exam/marks/'.$cid.'/'.$sid.'/addLink/store')}}" method="POST">
 
             <table class="table table-bordered">
                 <thead>
                 <tr>
-                    <td align="center">Teacher ID</td>
-                    <td align="center">Teacher Name</td>
+                    {{--<td align="center">Student ID</td>--}}
+                    <td align="center">Assesmet Links</td>
                 </tr>
                 </thead>
 
             </table>
 
-            @if($instructors != null)
+            @if($student != null)
 
-                @foreach( $instructors as $insinfo)
+                @foreach( $student as $sinfo)
+
                     <div class="input-group">
-                        <span class="input-group-addon">{{$insinfo->teacher_id}}</span>
-                        <span class="input-group-addon">{{$insinfo->teacher_name}}</span>
+                        {{--<span class="input-group-addon">{{$sinfo->student_id}}</span>--}}
+                        <a href="{{$sinfo->link}}">{{$sinfo->name}}</a>
+                        {{--<span class="input-group-addon">{{$sinfo->link}}</span>--}}
                     </div>
                 @endforeach
             @endif
-
+            <br/><br/>
             <div class="form-group row">
                 <div class="col-xs-2">
-                    <label for="ex2">Instructor Id</label>
-                    <input class="form-control" id="ex2" name="teacher_id" type="text">
+                    <label for="ex2">New Link</label>
+                    <input class="form-control" id="ex2" name="link" type="text">
                 </div>
             </div>
 
-            <input type="submit" value="Add Instructor">
+            <div class="form-group row">
+                <div class="col-xs-2">
+                    <label for="ex2">Link Name</label>
+                    <input class="form-control" id="ex2" name="name" type="text">
+                </div>
+            </div>
+
+            <input type="submit" value="Add link">
         </form>
     </div>
 @endsection

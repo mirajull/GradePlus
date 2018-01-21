@@ -2,13 +2,13 @@
 
 @section('content')
     <div class="container">
-        <h1>Examinations</h1>
+        <h1>Courses</h1>
 
         <!--<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/clearing-ccna-certification-top-study-tips-for-exam-rar272-article.jpg" style="width:100%;height: 425px">-->
         <div class="row">
             <br class='col-xs-12 button-wrapper'>
             <div class="btn-group">
-                <button type="button" class="btn btn-primary">Manage Existing Courses</button>
+                <button type="button" class="btn btn-primary">Existing Courses</button>
                 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                     <span class="caret"></span>
                 </button>

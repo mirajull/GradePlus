@@ -10,6 +10,12 @@ use App\Http\Requests;
 
 class InstructorController extends Controller
 {
+
+
+    public function __construct()
+    {
+        $this->middleware('isAdmin');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -76,6 +82,8 @@ class InstructorController extends Controller
         if(array_key_exists("presenation_no", $data))
         $now['presenation_no'] = $data['presenation_no'];
         $now->save();
+
+        $course=CourseOffer::all();
 
         $instructors = null ;
 

@@ -17,6 +17,12 @@ class CourseController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function __construct()
+    {
+        $this->middleware('isAdmin');
+    }
+
     public function manage()
     {
         $course = CourseOffer::all();

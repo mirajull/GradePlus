@@ -19,40 +19,40 @@
                 </ul>
             </div>
         </div> <br>
-        <div class="well well-lg"><h4>{{$cid."\x20"."Session:".$sid}} Instructors</h4></div>
+        <div class="well well-lg"><h4>{{$cid."\x20"."Session:".$sid}}Enrolled Students</h4></div>
 
         {{--<div class="well well-lg"><h4>{{$data['course_id']}}{{"\x20"}}{{"\x20Session:"}}{{$data['session_id']}}</h4></div>--}}
 
-        <form action="/final/public/exam/instructor/{{$cid}}/{{$sid}}/more" method="POST">
+        <form action="{{url('/exam/marks/'.$cid.'/'.$sid.'/addStudent/store')}}" method="POST">
 
             <table class="table table-bordered">
                 <thead>
                 <tr>
-                    <td align="center">Teacher ID</td>
-                    <td align="center">Teacher Name</td>
+                    <td align="center">Student ID</td>
+                    <td align="center">Student Name</td>
                 </tr>
                 </thead>
 
             </table>
 
-            @if($instructors != null)
+            @if($student != null)
 
-                @foreach( $instructors as $insinfo)
+                @foreach( $student as $sinfo)
                     <div class="input-group">
-                        <span class="input-group-addon">{{$insinfo->teacher_id}}</span>
-                        <span class="input-group-addon">{{$insinfo->teacher_name}}</span>
+                        <span class="input-group-addon">{{$sinfo->student_id}}</span>
+                        <span class="input-group-addon">{{$sinfo->student_name}}</span>
                     </div>
                 @endforeach
             @endif
 
             <div class="form-group row">
                 <div class="col-xs-2">
-                    <label for="ex2">Instructor Id</label>
-                    <input class="form-control" id="ex2" name="teacher_id" type="text">
+                    <label for="ex2">Student Id</label>
+                    <input class="form-control" id="ex2" name="student_id" type="text">
                 </div>
             </div>
 
-            <input type="submit" value="Add Instructor">
+            <input type="submit" value="Add Student">
         </form>
     </div>
 @endsection

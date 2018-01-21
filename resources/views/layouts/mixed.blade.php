@@ -16,7 +16,7 @@
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <style>
-        body  {
+        body {
             background-image: url("https://www.franchiseindia.com/uploads/content/edu/art/education-858cc07046.jpg");
             background-color: #cccccc;
             font-family: 'Lato';
@@ -37,6 +37,11 @@
             min-width:300px;
             text-align:left;
         }
+
+        /*.input-group .form-control {*/
+        /*width:15%;*/
+        /*margin-right:1%;*/
+        /*}*/
     </style>
 </head>
 
@@ -51,6 +56,47 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="{{url('/welcome')}}">GradePlus</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="{{url('/welcome')}}">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Dashboard <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{url('/routine')}}">Class routine</a></li>
+                        <li><a href="{{url('/exam')}}">Courses</a></li>
+                        <li><a href="{{url('/sheet')}}">Gradesheets</a></li>
+                        <li><a href="{{url('/result')}}">Result</a></li>
+                    </ul>
+                </li>
+                @if(Auth::user()->user_type=="admin")
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Administration <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{url('/addMembers')}}">Add Members</a></li>
+                            <li><a href="{{url('/addCourses')}}">Add Courses</a></li>
+                        </ul>
+                    </li>
+                @endif
+                <li><a href="{{url('/about')}}">About</a></li>
+                <li><a href="{{url('/contact')}}">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                @if (Auth::guest())
+                    <li><a href="{{url('/register')}}"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+                    <li><a href="{{url('/login')}}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                @else
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            {{ Auth::user()->name }} <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                        </ul>
+                    </li>
+                @endif
+            </ul>
         </div>
     </div>
 </nav>
